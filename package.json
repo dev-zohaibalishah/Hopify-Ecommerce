@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node backend/app.js",
-    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon backend/app.js"
+    "dev": "SET NODE_ENV=DEVELOPMENT & nodemon backend/app.js",
+    "devs": "nodemon backend/app.js"
   },
   "author": "Zohaib Ali Shah",
   "license": "ISC",
-  "description": "Exommerce app",
+  "description": "Ecommerce app",
   "dependencies": {
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
